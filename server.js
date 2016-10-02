@@ -43,7 +43,7 @@ server.register(Basic, (err) => {
         validateFunc: validate
     });
 
-    for (let route in routes) {
+    for (var route in routes) {
         if (routes[route].length > 0) {
             server.route(routes[route]);
         }
