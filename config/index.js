@@ -1,6 +1,6 @@
 module.exports = {
-  host: '127.0.0.1',
-  port: 8085,
+  host: 'localhost',
+  port: 3000,
   db: {
     user: 'root',
     password: 'root',
