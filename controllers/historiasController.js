@@ -18,4 +18,12 @@ module.exports = [{
         });
     }
   }
+}, {
+  method: 'GET',
+  path: '/api/test',
+  config: {
+    handler: (req, reply) => {
+      reply({'message': 'Esta funcionando la API' });
+    }
+  }
 }];

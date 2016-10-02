@@ -9,8 +9,7 @@ var users = require('./repositories/user');
 const server = new Hapi.Server();
 
 server.connection({
-    host: config.host,
-    port: config.port
+    port: process.env.PORT || config.port
 });
 
 const validate = function (request, username, password, callback) {

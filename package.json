@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "API for xuali application",
   "engines": {
-    "node": "6.4.x"
+    "node": "6.4.0",
+    "npm": "3.10.3"
   },
   "main": "server.js",
   "scripts": {
