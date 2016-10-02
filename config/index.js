@@ -1,10 +1,10 @@
 module.exports = {
   host: 'localhost',
-  port: 3000,
+  port: 8085,
   db: {
-    host: '127.0.0.1',
-    user: 'root',
-    password: 'root',
-    database: 'xualidb'
+    host: 'www.xualiapp.com',
+    user: 'xualiapp_admindb',
+    password: '2PX1W94rR',
+    database: 'xualiapp_xualiapp'
   }
 }
