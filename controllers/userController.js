@@ -39,6 +39,7 @@ module.exports = [{
                   reply({
                     Id: res.insertId, 
                     email: Usuario.email, 
+                    nombre: Usuario.nombre,
                     basicAuth: new Buffer(Usuario.email+':'+ Usuario.password).toString('base64') 
                   });
                 })
