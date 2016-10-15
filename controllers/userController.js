@@ -37,7 +37,7 @@ module.exports = [{
               User.save(Usuario)
                 .then(function (res) {
                   reply({
-                    Id: res.insertId, 
+                    id: res.insertId, 
                     email: Usuario.email, 
                     nombre: Usuario.nombre,
                     basicAuth: new Buffer(Usuario.email+':'+ Usuario.password).toString('base64') 
